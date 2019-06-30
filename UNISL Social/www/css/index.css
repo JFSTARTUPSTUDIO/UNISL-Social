@@ -35,3 +35,49 @@ body{
     margin-top:8px;
     margin-right:5px;
 }
+
+.post {
+    max-width: 800px;
+    position: relative;
+    top: 60px;
+    margin:0 auto;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: #0094ff solid 2px;
+    cursor: pointer;
+}
+
+.perfil p {
+    font: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.opcao{
+
+}
+
+.opcao img{
+    width:20px;
+    margin-top:13px;
+    margin-right:5px;
+}
